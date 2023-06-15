@@ -1,0 +1,48 @@
+*{
+    background-color: aliceblue;
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #7393B3;
+}
+
+.main{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 50px;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid black;
+}
+
+button{
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+.grid-wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    background-color: white;
+    border: 3px solid black;
+    
+}
